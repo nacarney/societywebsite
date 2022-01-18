@@ -1,0 +1,65 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <style>
+             p, h1, a {
+              font-family: Arial, Helvetica, sans-serif;
+                 text-align: center;
+             }
+             table {
+         font-family: Arial, Helvetica, sans-serif;
+         
+         text-align: center;
+         align-content: center;
+         margin-left: auto;
+         margin-right: auto;
+     }
+ </style>
+</head>
+<body>
+
+  <h1>
+    DU Statistics Society
+  </h1>
+  <p>Welcome to the DU Statistics Society.</p> <br>
+  <p>If you are already a member, please enter your email address below: </p>
+  <form name="emailcheck" id="emailcheck" action="checkemail.php" method="POST">
+    <table>
+      <tr>
+        <td>
+          <label for="emailcheck">Email:</label>
+        </td>
+        <td>
+          <input type="emailcheck" name="emailcheck" id="emailcheck" size = 30>
+        </td>
+      </tr>
+
+    </table>
+    <p>   
+      <input type="submit" value="Enter" style="padding-left: 15px; padding-right: 15px;"> 
+   </p>  
+  </form>
+
+  <br>
+
+  <table>
+    <tr>
+      <td>
+          Not a Member?
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="memberform.php" style="text-align: center;">Register here</a>
+      </td>
+    </tr>
+  </table>
+  
+</body>
+</html>
+  
